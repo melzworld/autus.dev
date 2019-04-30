@@ -57,7 +57,19 @@
         the Magento/Mor Website.  Long story short, you branch off the old branches to a new one locally, then push that<br>
         up to the BitBucket repo, and then from there, you physically delete the old branches via site.  Lastly, if you<br>
         want to, you can then delete your local branches.  Pretty sick huh? *SHINGGGGGGGGGGGGGGGGGG!*<br>
-        <img src ="images/snips/gitrename.png">
+        <img src ="images/snips/gitrename.png"> <br>
+        In other news, I failed miserably at following Anthony's instructions on how to start a webserver:  So first here<br>
+        is the link to the <a href="https://gist.github.com/mrajo/c1959f76610ecadf851792ba05f2a2bd">guide</a><br>
+        So number 1: I did NOT go to Google Domains and set the NS Records, because I THOUGHT I HAD DONE THAT, but I had <br>
+        to revert it in order to get my e-mails in order, but then I never came back and updated it. (According to Anthony <br>
+        he says I am a FUCK BREATH)<br>
+        So number 2: The Token Generated Dashboard.  So, on step "Configure automatic HTTP cert challenge" I was instructed<br>
+        on step one to generate a token for "CADDY-DNS", which I did, but then the instruction on step 4 told me to change<br>
+        a line to include this: Environment=CADDYPATH=/etc/ssl/caddy DO_AUTH_TOKEN=&lt;token generated from dashboard&gt; so I did<br>
+        EXACTLY WHAT IT SAID, and wrote &lt;token generated from dashboard&gt; instead of the actual token which was generated<br>
+        Then number 3: I somehow skipped a step (Install Caddy 7.2) where I didn't change ownership. <br>
+        Lastly (number 4) I did a typo in my Caddyfile which directed to audtus.dev instead of autus.dev<br>
+        Finally, for extra credit, it turns out my index.html was wrong.  So jesus, kill me already<br>
         </p>
       </article>
     <footer>
