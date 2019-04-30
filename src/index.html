@@ -20,17 +20,71 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
-        <li><a href="news.html">News</a></li>
         <li><a href="clients.html">Clients</a></li>
         <li><a href="resume.html">Resume</a></li>
       </ul>
     </nav>
   </header>
   <body>
-    <div class = 'header'> 
-      <h1>Welcome</h1>
-    </div>
-    <div class="footer">
-    </div>
+    <section> 
+      <h1>Latest News</h1>
+    </section>
+    <article>
+    <h2>Date: 4/29/2019</h2> 
+    <h3>How to rename a branch in BitBucket</h3>
+      <p>So in a bold move of courage, I dug deep within and found the strength to rename the primary dev branch for<br>
+      the Work Website.  Long story short, you branch off the old branches to a new one locally, then push that<br>
+      up to the BitBucket repo, and then from there, you physically delete the old branches via site.  Lastly, if you<br>
+      want to, you can then delete your local branches.  Pretty sick huh? *SHINGGGGGGGGGGGGGGGGGG!*<br>
+      <img alt="Bitbucket conversation for renaming branches" src ="images/snips/gitrename.png"> <br>
+      In other news, I failed miserably at following Anthony's instructions on how to start a webserver:  So first here<br>
+      is the link to the <a href="https://gist.github.com/mrajo/c1959f76610ecadf851792ba05f2a2bd">guide</a><br>
+        <ul>
+        <li>So number 1: I did NOT go to Google Domains and set the NS Records, because I THOUGHT I HAD DONE THAT, but I had <br>
+        to revert it in order to get my e-mails in order, but then I never came back and updated it. (According to Anthony <br>
+        he says I am a FUCK BREATH)</li>
+        <li>So number 2: The Token Generated Dashboard.  So, on step "Configure automatic HTTP cert challenge" I was instructed<br>
+        on step one to generate a token for "CADDY-DNS", which I did, but then the instruction on step 4 told me to change<br>
+        a line to include this: Environment=CADDYPATH=/etc/ssl/caddy DO_AUTH_TOKEN=&lt;token generated from dashboard&gt; so I did<br>
+        EXACTLY WHAT IT SAID, and wrote &lt;token generated from dashboard&gt; instead of the actual token which was generated</li>
+        <li>Then number 3: I somehow skipped a step (Install Caddy 7.2) where I didn't change ownership. </li>
+        <li>Lastly (number 4) I did a typo in my Caddyfile which directed to audtus.dev instead of autus.dev</li>
+        <li>Finally, for extra credit, it turns out my index.html was wrong.  So jesus, kill me already</li>
+        </ul>
+      </p>
+    </article>
+    <article>
+    <h2>Date: 4/26/2019</h2> 
+    <h3>AM I STARTING TO GET GIT?</h3>
+      <p>As I was driving to work, I suddenly came to the conclusion I didn't need to ever LEAVE the public folder.<br>
+      I simply just had to BRANCH from my master, and I'd STILL be in the same folder.  There was this mental block<br>
+      to understanding GIT, and I'm thinking that today, something clicked.  So I branched, and I pulled, and low and<br>
+      behold I was able to seamlessly update the site with the merge in the Development Branch.  That being said<br>
+      Anthony thinks pulling directly into serving a website is a horrific idea. Oh well.</p>
+    </article>
+    <article>
+    <h2>Date: 4/24/2019</h2> 
+    <h3>Layoffs and Source Control</h3>
+      <p>Today's lesson is: You don't have to CLONE every branch of a Repository.  You know how there's no such thing<br>
+        as a stupid question?  There is stupid answers.  And my answer for how to handle a Master/Dev/Dev2019 branch<br>
+        was to clone it several times.  Yeah.  You only need to clone it once.  Also, how did I fix my Digital Ocean problem?<br>
+        Basically I was still logged into it at work, so I hopped into the account, and updated the e-mail address.  But <br>
+        unfortunately, I had little to no time to work on it because today my company laid off like 15% of the office.  Or<br>
+        8 people. So I was so busy with mini meetings and "oh shit are we next" chatter that i didn't even get to update my<br>
+        feed.  Anyway, my lesson was "I still need to learn a lot about Git".</p>
+    </article>
+    <article>
+    <h2>Date: 4/23/2019</h2> 
+    <h3>Things I did today</h3>
+      <p>I created the PNG logo and added it to the site. I also created a bunch of .html files to build the navigation.<br>
+        With help I was able to get the Zohomail connected to the autus.dev domain.  I was also able to create a droplet<br>
+        on Digital Ocean.  My plan was to get this basic page onto there, but then I screwed myself over because I used <br>
+        a domain e-mail for my verification e-mail which also meant I activated the E-mail 2-Factor for it as well. Basically<br>
+        I screwed myself over.  I just read that I wrote "screwed myself over" twice.  Three times. Lyrics of fury.</p>
+    </article>
+    <footer>
+      <hr>
+      <p>2019 - Autus.Dev</p>
+    </footer>
   </body>
 </html>
