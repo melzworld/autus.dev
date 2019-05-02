@@ -1,0 +1,17 @@
+h1 {
+    color: black;
+    background-color: #d9eda3; 
+}
+
+h2 {
+    color: white;
+    background-color: #474747;
+}
+
+p {
+    color: #636800;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
