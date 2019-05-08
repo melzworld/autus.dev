@@ -15,10 +15,10 @@
     <title>Welcome to Autus.Dev</title>
   </head>
   <header>
-    <a href="index.html"><img alt="Autus.Dev logo" src ="images/logo.PNG"></a>
+    <a href="/"><img alt="Autus.Dev logo" src ="images/logo.PNG"></a>
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="clients.html">Clients</a></li>
@@ -40,6 +40,7 @@
         <img alt="Snip of a conversation where Anthony shits on Stacked Overflow" src ="images/snips/overflowsucks.png"></a><br>
         <br>
         Moral of the story.  NEVER EVER EVER EVER use Stacked Overflow for any type of help whatsoever.<br>
+        Also ESC then SHIFT + Z Z to save in VIM<br>
       </p>
     </article>
     <article>
