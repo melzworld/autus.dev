@@ -41,6 +41,15 @@
         <br>
         Moral of the story.  NEVER EVER EVER EVER use Stacked Overflow for any type of help whatsoever.<br>
         Also ESC then SHIFT + Z Z to save in VIM<br>
+        OTHER notes for today:<br>
+        <ul>
+          <li> Database is built and ready to use.</li>
+          <li> Now that PHP is involved, the game got a WHOLE LOT more complicated</li>
+          <li> I need to create a dev environment both at work and at home</li>
+          <li> I need to start thinking about a generic content management form</li>
+          <li> I just clarified that I'll be delving into login/security etc.</li>
+          <li> I give up.</li>
+        </ul>
       </p>
     </article>
     <article>
