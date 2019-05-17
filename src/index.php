@@ -32,6 +32,22 @@
     </section>
     <hr>
     <article>
+    <h2>5/16/2019</h2> 
+    <h3>If i'm doing anything, I have to at least put up an update.</h3>
+      <p> So it's been 8 days since my last update. There's a couple reasons I haven't been able to. <br>
+        <ol>
+          <li>1 - I'm actually quite busy at work with several time sensitive projects.</li>
+          <li>2 - I'm at a point where I need to setup two dev environments (potentially 3) Home/Work/Dev Laptop</li>
+          <li>3 - Lisa's parents are visiting, and I have a lot of other things need be doing.</li>
+        </ol>
+      I know, not the best excuses, but excuses nonetheless. I also learned that I really need to pay attention to<br>
+      selectors when doing JQuery.  On top of that Anthony hates the fact that I CopyPasta code. But it's a hard<br>
+      habit to break when i'm trying go get immediate results.  I have that shoot everyone and let god sort the<br>
+      bodies type of code writer.  It's not good.  Lastly, casing is super important.  Especially when referencing<br>
+      selectors. 
+      </p>
+    </article>
+    <article>
     <h2>5/8/2019</h2> 
     <h3>DIE IN A FIRE STACKED OVERFLOW!</h3>
       <p>Remember that thing I did last night?  I was right.  It was a TERRIBLE idea.  According to Anthony I done screwed<br>
