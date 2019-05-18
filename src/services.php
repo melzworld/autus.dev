@@ -19,10 +19,10 @@
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="index.php">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="clients.html">Clients</a></li>
-        <li><a href="resume.html">Resume</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="services.php">Services</a></li>
+        <li><a href="clients.php">Clients</a></li>
+        <li><a href="resume.php">Resume</a></li>
       </ul>
     </nav>
   </header>

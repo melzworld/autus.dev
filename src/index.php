@@ -19,10 +19,10 @@
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="/">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="clients.html">Clients</a></li>
-        <li><a href="resume.html">Resume</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="services.php">Services</a></li>
+        <li><a href="clients.php">Clients</a></li>
+        <li><a href="resume.php">Resume</a></li>
       </ul>
     </nav>
   </header>
@@ -42,7 +42,10 @@
       If I use something like Quill.JS that might be the ticket.  Regardless, I have 9 days to see if i can both enjoy<br>
       my in-laws visiting and make some kind of dent in my code.<br>
       Also, I need to remember this PHP thingy so I can run a temp PHP server if i want to see page edits:<br>
+      <br>
       <img alt="Snip of a conversation where I'm told what php command to use" src ="images/snips/usingPHP.png"><br>
+      Also, changed all the files to PHP.  Need to look into editing my RSYNC to clean up my server files so it<br>
+      doesn't leave clutter.<br>
       </p>
     </article>
     <article>
