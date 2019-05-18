@@ -40,7 +40,10 @@
       would be a no-brainer to try to complete my dev setup at home.  On top of that, maybe pushing all of these blogs<br>
       to the remote database would also be good.  Would it be too ambitious to create a rudimentary blogging tool?<br>
       If I use something like Quill.JS that might be the ticket.  Regardless, I have 9 days to see if i can both enjoy<br>
-      my in-laws visiting and make some kind of dent in my code.</p>
+      my in-laws visiting and make some kind of dent in my code.<br>
+      Also, I need to remember this PHP thingy so I can run a temp PHP server if i want to see page edits:<br>
+      <img alt="Snip of a conversation where I'm told what php command to use" src ="images/snips/usingPHP.png"><br>
+      </p>
     </article>
     <article>
     <h2>5/16/2019</h2> 
