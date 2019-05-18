@@ -32,6 +32,17 @@
     </section>
     <hr>
     <article>
+    <h2>5/18/2019</h2> 
+    <h3>Coder Stay-cation?</h3>
+      <p>Starting today, until Monday, May 27th, I'm on vacation.  Mostly because Lisa's parents are visiting from<br>
+      South Dakota, so for the most part we'll be at home with only local destinations.  That being said, this means<br>
+      possibly a lot of later evenings available.  Should I try to accomplish something in this time?  I think it<br>
+      would be a no-brainer to try to complete my dev setup at home.  On top of that, maybe pushing all of these blogs<br>
+      to the remote database would also be good.  Would it be too ambitious to create a rudimentary blogging tool?<br>
+      If I use something like Quill.JS that might be the ticket.  Regardless, I have 9 days to see if i can both enjoy<br>
+      my in-laws visiting and make some kind of dent in my code.</p>
+    </article>
+    <article>
     <h2>5/16/2019</h2> 
     <h3>If i'm doing anything, I have to at least put up an update.</h3>
       <p> So it's been 8 days since my last update. There's a couple reasons I haven't been able to. <br>
