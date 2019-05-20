@@ -32,6 +32,17 @@
     </section>
     <hr>
     <article>
+    <h2>5/20/2019</h2> 
+    <h3>MYSQL & PHP Installed</h3>
+      <p>Can we say... "GO PRODUCTIVITY!" So for my Dev Laptop (which is in Linux Mint) and my home desktop, I was <br>
+      able to install and configure both MYSQL and PHP.  On top of that I built identical databases on both with the<br>
+      'news' table that I will be populating later.  So I suppose I should await the next instructions.  I think Anthony<br>
+      mentioned something about using PHP to write to the table, but I'll have to ask for more details on what that means.<br>
+      Also <a href="https://gist.github.com/mrajo/ff4cc9464b58580a1a91fdb33b41f5b8">HERE</a> is the link to the GIST that 
+      Anthony wrote to configure MYSQL & PHP for future reference.<br>
+      </p>
+    </article>
+    <article>
     <h2>5/18/2019</h2> 
     <h3>Coder Stay-cation?</h3>
       <p>Starting today, until Monday, May 27th, I'm on vacation.  Mostly because Lisa's parents are visiting from<br>
