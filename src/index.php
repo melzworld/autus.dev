@@ -32,6 +32,23 @@
     </section>
     <hr>
     <article>
+    <h2>5/21/2019</h2> 
+    <h3>'_$' + doublequotes will get ya!</h3>
+      <p>So my first task was to create a test php file that would connect to my newly created database.  Pretty<br>
+      straightforward if you were a normal person.  For me, I didn't quite understand what that meant.  What it<br>
+      means to a laymen like me is to literally get a php file and put code that would do a basic connect to my<br>
+      database.  Literally what I said earlier.  Oh well, hopefully you throw enough crap on a wall and something<br>
+      sticks.  Learning about developing = crap.  Wall = my brain. Any how the task itself seemed easy, but there<br>
+      was one small caveat that caused me issues:  This issue in particular:<br><br>
+      <img alt="Snip of my dumb php connection error" src ="images/snips/phpconnecterror.png"><br><br>
+      Anyhow, the lesson to be learned is: My dumb password had <strong>_$</strong> in the characters and on top of that the entire<br>
+      login code was wrapped in double quotations. According to Anthony: <br> 
+      <blockquote> "if you put it in double quotes it will treat the $ as a variable use single quotes"</blockquote><br>
+      That being said, I kept my dumb password, changed the quotes, and lo and behold. It worked like a twerk.<br>
+      ONWARD to the next thing.
+      </p>
+    </article>
+    <article>
     <h2>5/20/2019</h2> 
     <h3>MYSQL & PHP Installed</h3>
       <p>Can we say... "GO PRODUCTIVITY!" So for my Dev Laptop (which is in Linux Mint) and my home desktop, I was <br>
@@ -40,6 +57,8 @@
       mentioned something about using PHP to write to the table, but I'll have to ask for more details on what that means.<br>
       Also <a href="https://gist.github.com/mrajo/ff4cc9464b58580a1a91fdb33b41f5b8" target="_blank">HERE</a> is the link to the GIST that 
       Anthony wrote to configure MYSQL & PHP for future reference.<br>
+      <br>
+      Today's helpful tidbit of knowledge: When you run php -S localhost:8888, it runs the server on whatever folder you're on.<br> 
       </p>
     </article>
     <article>
