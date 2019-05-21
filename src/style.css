@@ -48,3 +48,13 @@ blockquote {
     text-shadow: 0 1px gray;
     z-index: 600;
 }
+
+article { 
+    display: block;
+    width: 960px;
+ }
+
+.img-block {
+    display: block;
+    margin: 20px 0;
+}
