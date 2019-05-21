@@ -32,3 +32,19 @@ p {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
+blockquote {
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    color: #5b2963;
+    font-family: Arial, serif;
+    font-size: 1.25em;
+    font-style: italic; 
+    line-height: 1.4 !important;
+    margin: 0;
+    position: relative;
+    text-shadow: 0 1px gray;
+    z-index: 600;
+}
