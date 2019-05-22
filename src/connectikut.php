@@ -8,8 +8,21 @@ if (!$link) {
     exit;
 }
 
-echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
-echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
+// Escape user inputs for security
+$createDate = mysqli_real_escape_string($link, $_REQUEST['currentDate']);
+$message = mysqli_real_escape_string($link, $_REQUEST['message']);
+$title = mysqli_real_escape_string($link, $_REQUEST['title']);
+
+// Attempt insert query execution
+$sql = "INSERT INTO news (title, content, blog_date) VALUES ('$title', '$message', '$createDate')";
+if(mysqli_query($link, $sql)){
+    echo "Records inserted successfully.";
+} else{
+    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+}
+
+// echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
+// echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
 
 mysqli_close($link);
 ?>

@@ -23,6 +23,7 @@
         <li><a href="services.php">Services</a></li>
         <li><a href="clients.php">Clients</a></li>
         <li><a href="resume.php">Resume</a></li>
+        <li><a href="form.php">Test</a></li>
       </ul>
     </nav>
   </header>
