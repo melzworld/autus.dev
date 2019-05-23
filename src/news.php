@@ -4,7 +4,7 @@
     if ($link->connect_error) {
         die("Connection failed: " . $link->connect_error);
     }
-    $sql = "SELECT blog_date, title, content FROM news";
+    $sql = "SELECT blog_date, title, content FROM news ORDER BY create_date DESC ";
     $result = $link->query($sql);
 ?>
 

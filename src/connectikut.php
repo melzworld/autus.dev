@@ -17,6 +17,7 @@ $title = mysqli_real_escape_string($link, $_REQUEST['title']);
 $sql = "INSERT INTO news (title, content, blog_date) VALUES ('$title', '$message', '$createDate')";
 if(mysqli_query($link, $sql)){
     echo "Records inserted successfully.";
+    header("Location: /news.php");
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
