@@ -41,6 +41,7 @@
     <body>
         <section>
         <h1>Latest News</h1>
+        <hr>
         </section>
             <?php if ($result->num_rows): ?>
                 <?php while($row = $result->fetch_assoc()): ?>
