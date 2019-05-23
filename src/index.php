@@ -24,6 +24,7 @@
         <li><a href="clients.php">Clients</a></li>
         <li><a href="resume.php">Resume</a></li>
         <li><a href="form.php">Test</a></li>
+        <li><a href="news.php">News</a></li>
       </ul>
     </nav>
   </header>
