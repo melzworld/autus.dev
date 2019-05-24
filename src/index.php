@@ -25,7 +25,7 @@
     <title>Welcome to Autus.Dev</title>
   </head>
   <header>
-    <a href="/"><img alt="Autus.Dev logo" src ="images/logo.PNG"></a>
+    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/logo.PNG"></a>
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="/">Home</a></li>
