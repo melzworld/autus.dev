@@ -36,7 +36,8 @@
       </ul>
     </nav>
   </header>
-  <body>
+<body>
+  <div class="container">
     <section>
     <h1>Latest News</h1>
     <hr>
@@ -53,6 +54,7 @@
     <?php else: ?>
     <p>No records found</p>
     <?php endif; ?>
+  </div>
 </body>
   <footer>
     <hr>

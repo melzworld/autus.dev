@@ -15,7 +15,7 @@
     <title>Add Post</title>
 </head>
 <header>
-    <a href="/"><img alt="Autus.Dev logo" src ="images/logo.PNG"></a>
+    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/logo.PNG"></a>
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="index.php">Home</a></li>
@@ -27,23 +27,25 @@
     </nav>
 </header>
 <body>
-    <h2>Blog Inserter-O-Rama 5000</h2>
-    <h3>I heard that you bring it.  Fill out your blog info for the world to see.</h3>
-    <form action="connectikut.php" method="post">
-        <p>
-            <label for="currentDate">Date:<sup>*</sup></label>
-            <input type="date" name="currentDate" id="inputCurrentDate">
-        </p>
-        <p>
-            <label for="blogTitle">Title:<sup>*</sup></label>
-            <input type="text" name="title" id="inputTitle" style="width: 670px">
-        </p>
-        <p>
-            <label for="blogGuts">Content:<sup>*</sup></label>
-            <textarea name="message" id="inputMessage" rows="10" cols="90"></textarea>
-        </p>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-    </form>
+    <div class="container">
+        <h2>Blog Inserter-O-Rama 5000</h2>
+        <h3>I heard that you bring it.  Fill out your blog info for the world to see.</h3>
+        <form action="connectikut.php" method="post">
+            <p>
+                <label for="currentDate">Date:<sup>*</sup></label>
+                <input type="date" name="currentDate" id="inputCurrentDate">
+            </p>
+            <p>
+                <label for="blogTitle">Title:<sup>*</sup></label>
+                <input type="text" name="title" id="inputTitle" style="width: 670px">
+            </p>
+            <p>
+                <label for="blogGuts">Content:<sup>*</sup></label>
+                <textarea name="message" id="inputMessage" rows="10" cols="90"></textarea>
+            </p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
 </body>
 </html>

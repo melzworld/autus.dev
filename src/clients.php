@@ -15,7 +15,7 @@
     <title>Autus.Dev - Current Clients</title>
   </head>
   <header>
-    <a href="index.php"><img alt="Autus.Dev logo" src ="images/logo.PNG"></a>
+    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/logo.PNG"></a>
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="index.php">Home</a></li>
@@ -27,15 +27,17 @@
     </nav>
   </header>
   <body>
-    <section>
-    <h1>Clients</h1>
-    <hr>
-    Autus.Dev is proud to work with several individuals and small businesses to help them connect with the tech world<br>
-    Naw i'm just kidding. I just have like one client and he's super chill.<br>
-  </section>
-  <footer>
-    <hr>
-    <p>2019 - Autus.Dev</p>
-  </footer>
+    <div class="container">
+      <section>
+      <h1>Clients</h1>
+      <hr>
+      Autus.Dev is proud to work with several individuals and small businesses to help them connect with the tech world<br>
+      Naw i'm just kidding. I just have like one client and he's super chill.<br>
+    </section>
+    <footer>
+      <hr>
+      <p>2019 - Autus.Dev</p>
+    </footer>
+  </div>
   </body>
 </html>

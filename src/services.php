@@ -15,7 +15,7 @@
     <title>Services Available</title>
   </head>
   <header>
-    <a href="index.php"><img alt="Autus.Dev logo" src ="images/logo.PNG"></a>
+  <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/logo.PNG"></a>
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="index.php">Home</a></li>
@@ -27,19 +27,21 @@
     </nav>
   </header>
   <body>
-    <section>
-    <h1>Services Provided</h1>
-    <hr>
-    Autus.Dev provides solutions to your businesses needs.  Wait. No no, I think that came out wrong.<br>
-    Autus.Dev hopes businessess need me to provide them solutions?  Does that sound beggy? It sounds beggy.<br>
-    Autus.Dev solves things.  It will attempt to use technology and sheer will to help your business succeed!<br>
-    No, that sounds preachy.  And I'm overpromising and under-delivering.<br>
-    Autus.Dev can do stuff.  Whether or not that stuff is beneficial to you and your business is entirely up<br>
-    in the air.<br>
-    </section>
-  <footer>
-    <hr>
-    <p>2019 - Autus.Dev</p>
-  </footer>
+    <div class="container">
+      <section>
+      <h1>Services Provided</h1>
+      <hr>
+      Autus.Dev provides solutions to your businesses needs.  Wait. No no, I think that came out wrong.<br>
+      Autus.Dev hopes businessess need me to provide them solutions?  Does that sound beggy? It sounds beggy.<br>
+      Autus.Dev solves things.  It will attempt to use technology and sheer will to help your business succeed!<br>
+      No, that sounds preachy.  And I'm overpromising and under-delivering.<br>
+      Autus.Dev can do stuff.  Whether or not that stuff is beneficial to you and your business is entirely up<br>
+      in the air.<br>
+      </section>
+      <footer>
+        <hr>
+        <p>2019 - Autus.Dev</p>
+      </footer>
+    </div>
   </body>
 </html>

@@ -15,7 +15,7 @@
     <title>My Resume</title>
   </head>
   <header>
-    <a href="index.php"><img alt="Autus.Dev logo" src ="images/logo.PNG"></a>
+    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/logo.PNG"></a>
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="index.php">Home</a></li>
@@ -27,19 +27,21 @@
     </nav>
   </header>
   <body>
-    <section>
-    <h1>My Resume</h1>
-    <hr>
-    Here is where my highly qualified and decorated CURRICULUM VITAE aka DOPE RESUME would go. <br>
-    Obviously, it's not up yet because it needs to be polished and shined like the diamond of <br>
-    skillsets and experience it is, and I would never dare sully the value of the work history<br>
-    by releasing it publicly without giving the absolute utter perfection of display as it truly<br>
-    deserves.  Who am I kidding, I just haven't gotten around to this part yet and this is just<br>
-    a place holder.<br>
-    </section>
-  <footer>
-    <hr>
-    <p>2019 - Autus.Dev</p>
-  </footer>
+    <div class="container">
+      <section>
+      <h1>My Resume</h1>
+      <hr>
+      Here is where my highly qualified and decorated CURRICULUM VITAE aka DOPE RESUME would go. <br>
+      Obviously, it's not up yet because it needs to be polished and shined like the diamond of <br>
+      skillsets and experience it is, and I would never dare sully the value of the work history<br>
+      by releasing it publicly without giving the absolute utter perfection of display as it truly<br>
+      deserves.  Who am I kidding, I just haven't gotten around to this part yet and this is just<br>
+      a place holder.<br>
+      </section>
+    <footer>
+      <hr>
+      <p>2019 - Autus.Dev</p>
+    </footer>
+    </div>
   </body>
 </html>
