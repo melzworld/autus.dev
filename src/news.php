@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect('localhost', 'rautus', 'All_Men_Must_Die!1X_y#$$_@##@', 'autusdb');
+    $link = mysqli_connect('localhost', 'rautus', 'h0lycrapKill_Me', 'autusdb');
 
     if ($link->connect_error) {
         die("Connection failed: " . $link->connect_error);
