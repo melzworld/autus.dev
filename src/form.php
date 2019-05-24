@@ -23,14 +23,13 @@
         <li><a href="services.php">Services</a></li>
         <li><a href="clients.php">Clients</a></li>
         <li><a href="resume.php">Resume</a></li>
-        <li><a href="form.php">Test</a></li>
         <li><a href="news.php">News</a></li>
       </ul>
     </nav>
 </header>
 <body>
     <h2>Blog Inserter-O-Rama 5000</h2>
-    <p>I heard that you bring it.  Fill out your blog info for the world to see.</p>
+    <h3>I heard that you bring it.  Fill out your blog info for the world to see.</h3>
     <form action="connectikut.php" method="post">
         <p>
             <label for="currentDate">Date:<sup>*</sup></label>

@@ -33,7 +33,6 @@
         <li><a href="services.php">Services</a></li>
         <li><a href="clients.php">Clients</a></li>
         <li><a href="resume.php">Resume</a></li>
-        <li><a href="form.php">Test</a></li>
         <li><a href="news.php">News</a></li>
         </ul>
     </nav>
@@ -46,7 +45,8 @@
             <?php if ($result->num_rows): ?>
                 <?php while($row = $result->fetch_assoc()): ?>
                     <article>
-                        <h2><?= $row['blog_date'] ?></h2>
+                        <?php $date = date_create($row['blog_date']); ?>
+                        <h2><?= date_format($date, "F j, Y") ?></h2>
                         <h3><?= $row['title'] ?></h3>
                         <p><?= $row['content'] ?></p>
                     </article>
@@ -55,6 +55,10 @@
             <p>No records found</p>
         <?php endif; ?>
     </body>
+    <footer>
+      <hr>
+      <p>2019 - Autus.Dev</p>
+    </footer>
 </html>
 
 <?php
