@@ -66,3 +66,22 @@ article {
 .container {
     width: 100%;
 }
+
+article h2 form button {
+   float: right;
+   margin-right: 6px;
+   margin-top: 3px;
+}S
+
+.fa-edit:before {
+    content: "\f044";
+    float: right;
+    /* margin-right: 6px; */
+}
+
+.fa-trash-alt:before {
+    float: right;
+    /* margin-right: 6px; */
+    content: "\f2ed";
+    color: red;
+}
