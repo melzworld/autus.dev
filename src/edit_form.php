@@ -26,7 +26,7 @@
     <title>Add Post</title>
 </head>
 <header>
-    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/logo.PNG"></a>
+    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/adminlogo.PNG"></a>
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="index.php">Home</a></li>

@@ -25,7 +25,11 @@
     <title>Welcome to Autus.Dev</title>
   </head>
   <header>
-    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/logo.PNG"></a>
+    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/logo.PNG" usemap="#image-map">
+      <map name="image-map">
+        <area target="" alt="Blog Admin" title="Blog Admin" href="blog_admin.php" coords="309,45,28" shape="circle">
+      </map>
+    </a>
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="/">Home</a></li>

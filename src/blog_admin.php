@@ -26,7 +26,7 @@
     <title>Blog Admin</title>
   </head>
   <header>
-    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/logo.PNG"></a>
+    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/adminlogo.PNG"></a>
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="/">Home</a></li>
@@ -40,7 +40,11 @@
 <body>
   <div class="container">
     <section>
-    <h1>Latest News</h1>
+    <h1>Latest News 
+      <a href="form.php">
+        <i class="fas fa-pencil-alt"></i>
+      </a>
+    </h1>
     <hr>
     </section>
     <?php if ($result->num_rows): ?>
