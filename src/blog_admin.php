@@ -26,7 +26,7 @@
     <title>Blog Admin</title>
   </head>
   <header>
-    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/adminlogo.PNG"></a>
+    <a href="/"><img class="logo" alt="Autus.Dev logo" src ="images/adminlogo.png"></a>
     <nav>
       <ul style="padding: 0; padding-bottom: 0; margin-left: 0; margin-bottom: 0">
         <li><a href="/">Home</a></li>
