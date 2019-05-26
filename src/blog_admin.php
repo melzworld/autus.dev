@@ -58,7 +58,6 @@
             </form>
           <h3><?= $row['title'] ?></h3>
           <p><?= $row['content'] ?></p>
-          <p><?= $row['id'] ?></p>
         </article>
 
       <?php endwhile; ?>
