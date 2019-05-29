@@ -31,6 +31,7 @@
       <section>
         <h1>About Page</h1>
         <hr>
+        <img class="site" alt="The About Picture" src="images/about_us.png" style="max-width:50%">
         The .dev domain used to belong to no one.  So a lot of companies used the .dev as their development host url when they were building thieir sites locally.<br>
         Then one day Google came along and bought up the entire domain.  So then NO one had access to .dev, and the land was sad.  But then one day, Google<br>
         decided that they would not only let people have .dev again, but this time, it was tied to a legitimate domain that the world could use and see!  So<br>
