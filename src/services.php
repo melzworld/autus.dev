@@ -32,12 +32,14 @@
       <h1>Services Provided</h1>
       <hr>
       <img class="site" alt="The Services Picture" src="images/services.png" style="max-width:50%">
+      <p>
       Autus.Dev provides solutions to your businesses needs.  Wait. No no, I think that came out wrong.<br>
       Autus.Dev hopes businessess need me to provide them solutions?  Does that sound beggy? It sounds beggy.<br>
       Autus.Dev solves things.  It will attempt to use technology and sheer will to help your business succeed!<br>
       No, that sounds preachy.  And I'm overpromising and under-delivering.<br>
       Autus.Dev can do stuff.  Whether or not that stuff is beneficial to you and your business is entirely up<br>
       in the air.<br>
+      </p>
       </section>
       <footer>
         <hr>

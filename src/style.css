@@ -8,7 +8,8 @@ img.site {
     display:block;
     max-width: 35%;
     height:auto;
-    padding: 10px;
+    /* padding: 10px; */
+    box-shadow: 10px 10px 5px grey;
 }
 nav ul {
     display: flex;

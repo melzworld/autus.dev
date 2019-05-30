@@ -32,6 +32,7 @@
         <h1>About Page</h1>
         <hr>
         <img class="site" alt="The About Picture" src="images/about_us.png" style="max-width:50%">
+        <p>
         The .dev domain used to belong to no one.  So a lot of companies used the .dev as their development host url when they were building thieir sites locally.<br>
         Then one day Google came along and bought up the entire domain.  So then NO one had access to .dev, and the land was sad.  But then one day, Google<br>
         decided that they would not only let people have .dev again, but this time, it was tied to a legitimate domain that the world could use and see!  So<br>
@@ -39,6 +40,7 @@
         web development or programming, but I grew up around computers and my closest friends have become well established professionals in the computer science<br>
         field. So after years of denying my true nature, here I am, way older and more set in my ways, trying to learn web development from the ground up.<br>
         Welcome to Autus.Dev.
+        </p>
       </section>
     <footer>
       <hr>

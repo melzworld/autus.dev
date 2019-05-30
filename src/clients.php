@@ -32,8 +32,10 @@
       <h1>Clients</h1>
       <hr>
       <img class="site" alt="The Clients Picture" src="images/clients.png" style="max-width:50%">
+      <p>
       Autus.Dev is proud to work with several individuals and small businesses to help them connect with the tech world<br>
       Naw i'm just kidding. I just have like one client and he's super chill.<br>
+      </p>
     </section>
     <footer>
       <hr>

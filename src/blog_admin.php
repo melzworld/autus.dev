@@ -1,11 +1,11 @@
 <?php
-    $link = mysqli_connect('localhost', 'rautus', 'h0lycrapKill_Me', 'autusdb');
+  $link = mysqli_connect('localhost', 'rautus', 'h0lycrapKill_Me', 'autusdb');
 
-    if ($link->connect_error) {
-        die("Connection failed: " . $link->connect_error);
-    }
-    $sql = "SELECT blog_date, title, content, id FROM news ORDER BY create_date DESC ";
-    $result = $link->query($sql);
+  if ($link->connect_error) {
+      die("Connection failed: " . $link->connect_error);
+  }
+  $sql = "SELECT blog_date, title, content, id FROM news ORDER BY create_date DESC ";
+  $result = $link->query($sql);
 ?>
 
 <!DOCTYPE html>

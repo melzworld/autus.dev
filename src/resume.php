@@ -29,14 +29,16 @@
   <body>
     <div class="container">
       <section>
-      <h1>My Resume</h1>
-      <hr>
-      Here is where my highly qualified and decorated CURRICULUM VITAE aka DOPE RESUME would go. <br>
-      Obviously, it's not up yet because it needs to be polished and shined like the diamond of <br>
-      skillsets and experience it is, and I would never dare sully the value of the work history<br>
-      by releasing it publicly without giving the absolute utter perfection of display as it truly<br>
-      deserves.  Who am I kidding, I just haven't gotten around to this part yet and this is just<br>
-      a place holder.<br>
+        <h1>My Resume</h1>
+        <hr>
+        <p>
+        Here is where my highly qualified and decorated CURRICULUM VITAE aka DOPE RESUME would go. <br>
+        Obviously, it's not up yet because it needs to be polished and shined like the diamond of <br>
+        skillsets and experience it is, and I would never dare sully the value of the work history<br>
+        by releasing it publicly without giving the absolute utter perfection of display as it truly<br>
+        deserves.  Who am I kidding, I just haven't gotten around to this part yet and this is just<br>
+        a place holder.<br>
+        </p>
       </section>
     <footer>
       <hr>
