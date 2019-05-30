@@ -1,9 +1,9 @@
 <?php
 
-require_once('/loginfo.php');
+require('../includes/autus.dev.loginfo.php');
 
-function dbConnect(){
-    $link = mysqli_connect('localhost', 'rautus', 'h0lycrapKill_Me', 'autusdb');
+function dbConnect($loginfo){
+    $link = mysqli_connect($loginfo['dbhost'], $loginfo['username'], $loginfo['password'], $loginfo['dbname']);
 
     if (!$link) {
         echo "Error: Unable to connect to MySQL." . PHP_EOL;
@@ -12,6 +12,7 @@ function dbConnect(){
         exit;
     }
 }
+
 function postBlog($currentdate, $message, $title){
     // Escape user inputs for security
     $createDate = mysqli_real_escape_string($link, $_REQUEST['currentDate']);
