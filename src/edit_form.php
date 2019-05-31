@@ -1,12 +1,10 @@
 <?php
-    $link = mysqli_connect('localhost', 'rautus', 'h0lycrapKill_Me', 'autusdb');
-    $id = mysqli_real_escape_string($link, $_REQUEST['newsID']);
-
-    if ($link->connect_error) {
-        die("Connection failed: " . $link->connect_error);
-    }
-    $sql = "SELECT blog_date, title, content, id FROM news where id='$id'";
-    $result = $link->query($sql);
+    require_once('../includes/autus.dev.loginfo.php');
+    require_once('admin.php');
+    
+    $connect = dbConnect($loginfo);
+    $id = mysqli_real_escape_string($connect, $_REQUEST['newsID']);
+    $editForm = viewPost($connect, $id);
 ?>
 
 <!DOCTYPE html>
@@ -41,8 +39,8 @@
     <div class="container">
         <h2>Blog Update-O-Rama 5000</h2>
         <h3>I heard that you bring it.  Fill out your blog info for the world to see.</h3>
-        <?php if ($result->num_rows): ?>
-            <?php while($row = $result->fetch_assoc()): ?>
+        <?php if ($editForm->num_rows): ?>
+            <?php while($row = $editForm->fetch_assoc()): ?>
                 <form action="updooter.php" method="post">
                     <p>
                         <label for="currentDate">Date:<sup>*</sup></label>

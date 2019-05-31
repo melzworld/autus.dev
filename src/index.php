@@ -1,11 +1,9 @@
 <?php
-    $link = mysqli_connect('localhost', 'rautus', 'h0lycrapKill_Me', 'autusdb');
+require_once('../includes/autus.dev.loginfo.php');
+require_once('admin.php');
 
-    if ($link->connect_error) {
-        die("Connection failed: " . $link->connect_error);
-    }
-    $sql = "SELECT blog_date, title, content FROM news ORDER BY create_date DESC ";
-    $result = $link->query($sql);
+$connect = dbConnect($loginfo);
+$viewPost = viewBlog($connect);
 ?>
 
 <!DOCTYPE html>
@@ -46,8 +44,8 @@
     <h1>Latest News</h1>
     <hr>
     </section>
-    <?php if ($result->num_rows): ?>
-      <?php while($row = $result->fetch_assoc()): ?>
+    <?php if ($viewPost->num_rows): ?>
+      <?php while($row = $viewPost->fetch_assoc()): ?>
         <article>
           <?php $date = date_create($row['blog_date']); ?>
           <h2><?= date_format($date, "F j, Y") ?></h2>
@@ -67,5 +65,5 @@
 </html>
 
 <?php
-    $link->close();
+    $connect->close();
 ?>

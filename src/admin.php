@@ -1,5 +1,4 @@
 <?php
-
 require('../includes/autus.dev.loginfo.php');
 
 function dbConnect($loginfo){
@@ -11,14 +10,22 @@ function dbConnect($loginfo){
         echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
         exit;
     }
+    return $link;
 }
 
-function postBlog($currentdate, $message, $title){
-    // Escape user inputs for security
-    $createDate = mysqli_real_escape_string($link, $_REQUEST['currentDate']);
-    $message = mysqli_real_escape_string($link, $_REQUEST['message']);
-    $title = mysqli_real_escape_string($link, $_REQUEST['title']);
+function viewBlog($link){
+    $sql = "SELECT blog_date, title, content, id FROM news ORDER BY create_date DESC ";
+    $result = $link->query($sql);
+    return $result;
+}
 
+function viewPost($link, $id){
+    $sql = "SELECT blog_date, title, content, id FROM news where id='$id'";
+    $result = $link->query($sql);
+    return $result;
+}
+
+function postBlog($link, $createDate, $message, $title){
     // Attempt insert query execution
     $sql = "INSERT INTO news (title, content, blog_date) VALUES ('$title', '$message', '$createDate')";
     if(mysqli_query($link, $sql)){
@@ -27,40 +34,28 @@ function postBlog($currentdate, $message, $title){
     } else{
         echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
     }
-
     mysqli_close($link);
 };
 
-function deleteBlog($newsID){
-    // Escape user inputs for security
-    $id = mysqli_real_escape_string($link, $_REQUEST['newsID']);
-
+function deleteBlog($link, $newsID){
     // Attempt delete query execution
-    $sql = "DELETE FROM news where id = '$id'";
+    $sql = "DELETE FROM news where id = '$newsID'";
     if(mysqli_query($link, $sql)){
         echo "Record deleted successfully.";
         header("Location: /blog_admin.php");
     } else{
         echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
     }
-
     mysqli_close($link);
 };
 
-function updateBlog(currentDate, message, title, newsID){
-    // Escape user inputs for security
-    $createDate = mysqli_real_escape_string($link, $_REQUEST['currentDate']);
-    $message = mysqli_real_escape_string($link, htmlspecialchars_decode($_REQUEST['message']));
-    $title = mysqli_real_escape_string($link, $_REQUEST['title']);
-    $id = mysqli_real_escape_string($link, $_REQUEST['newsID']);
-
+function updateBlog($link, $currentDate, $message, $title, $newsID){
     // Attempt update query execution
-    // $sql = "INSERT INTO news (title, content, blog_date) VALUES ('$title', '$message', '$createDate')";
     $sql = "UPDATE news 
             SET title = '$title',
             content = '$message',
-            blog_date = '$createDate'
-            WHERE id = '$id'";
+            blog_date = '$currentDate'
+            WHERE id = '$newsID'";
 
     if(mysqli_query($link, $sql)){
         echo "Record updated successfully.";
